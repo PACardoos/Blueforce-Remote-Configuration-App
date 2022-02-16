@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Remote Config</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="general_header">General</string>
+    <string name="account_device_header">Account and Device</string>
+    <string name="security_header">Security</string>
+    <string name="location_header">Location</string>
+    <string name="messaging_header">Messaging</string>
+    <string name="plugins_endpoints_header">Plugins and Endpoints</string>
+
+    <!-- General Settings Resources -->
+    <string name="service_url_title">Service URL</string>
+    <string name="xmpp_server_title">XMPP Server</string>
+    <string name="xmpp_port_title">XMPP Port</string>
+    <string name="device_qos_title">Device QoS</string>
+    <string name="publisher_ip_title">Publisher IP</string>
+    <string name="logging_level_title">Logging Level</string>
+
+    <!-- Account and Device Settings Resources -->
+    <string name="resources_title">Resources</string>
+    <string name="competencies_title">Competencies</string>
+    <string name="auto_accept_title">Auto-Accept</string>
+    <string name="auto_reconnect_title">Auto-Reconnect</string>
+    <string name="device_type_code_title">Device Type Code</string>
+    <string name="device_type_name_title">Device Type Name</string>
+
+    <!-- Security Settings Resources -->
+    <string name="security_api_key_title">Security API Key</string>
+    <string name="admin_pin_title">Admin Pin</string>
+    <string name="web_service_key_title">Web Service Key</string>
+    <string name="web_service_port_title">Web Service Port</string>
+    <string name="web_service_app_port_title">Web Service App Port</string>
+
+    <!-- Location Settings Resources -->
+    <string name="latitude_title">Latitude</string>
+    <string name="longitude_title">Longitude</string>
+    <string name="send_mgrs_title">Send MGRS</string>
+
+    <!-- Messaging Settings Resources -->
+    <string name="xpres_interval_title">Xpres Interval</string>
+    <string name="xpres_interval_for_panic_title">Xpres Interval for PANIC</string>
+
+    <!-- Plugins and Endpoints Settings Resources -->
+    <string name="install_plugins_title">Install Plugins</string>
+    <string name="uninstall_plugins_title">Uninstall Plugins</string>
+    <string name="install_endpoints_title">Install Endpoints</string>
+    <string name="uninstall_endpoints_title">Uninstall Endpoints</string>
+    <string name="video_stream_url_title">Video Stream URL</string>
+    <string name="video_stream_type_title">Video Stream Type</string>
+
+</resources>

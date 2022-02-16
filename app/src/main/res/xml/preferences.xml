@@ -1,0 +1,170 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/general_header">
+
+        <EditTextPreference
+            app:key="services_url"
+            app:title="@string/service_url_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="xmpp_server"
+            app:title="@string/xmpp_server_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="xmpp_port"
+            app:title="@string/xmpp_port_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="10"
+            app:entries="@array/device_qos_entries"
+            app:entryValues="@array/device_qos_entries"
+            app:key="device_qos"
+            app:title="@string/device_qos_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="publisher_ip"
+            app:title="@string/publisher_ip_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="1"
+            app:entries="@array/logging_level_entries"
+            app:entryValues="@array/logging_level_entries"
+            app:key="log_level"
+            app:title="@string/logging_level_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/account_device_header">
+
+        <EditTextPreference
+            app:key="resources"
+            app:title="@string/resources_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="competencies"
+            app:title="@string/competencies_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreferenceCompat
+            app:key="auto_accept"
+            app:title="@string/auto_accept_title" />
+
+        <SwitchPreferenceCompat
+            app:key="auto_reconnect"
+            app:title="@string/auto_reconnect_title" />
+
+        <EditTextPreference
+            app:key="device_type_code"
+            app:title="@string/device_type_code_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="device_type_name"
+            app:title="@string/device_type_name_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/security_header">
+
+        <EditTextPreference
+            app:key="security-api-key"
+            app:title="@string/security_api_key_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="admin_pin"
+            app:title="@string/admin_pin_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="web_service_key"
+            app:title="@string/web_service_key_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="web_service_port"
+            app:title="@string/web_service_port_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="web_service_app_port"
+            app:title="@string/web_service_app_port_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/location_header">
+
+        <EditTextPreference
+            app:key="latitude"
+            app:title="@string/latitude_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="longitude"
+            app:title="@string/longitude_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreferenceCompat
+            app:key="send-mgrs"
+            app:title="@string/send_mgrs_title"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/messaging_header">
+
+        <EditTextPreference
+            app:key="xpres-interval"
+            app:title="@string/xpres_interval_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="xpres-interval-for-panic"
+            app:title="@string/xpres_interval_for_panic_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/plugins_endpoints_header">
+
+        <EditTextPreference
+            app:key="install_plugins"
+            app:title="@string/install_plugins_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="uninstall_plugins"
+            app:title="@string/uninstall_plugins_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="install_endpoints"
+            app:title="@string/install_endpoints_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="uninstall_endpoints"
+            app:title="@string/uninstall_endpoints_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="video_stream_url"
+            app:title="@string/video_stream_url_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="video_stream_type"
+            app:title="@string/video_stream_type_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
